@@ -10,7 +10,7 @@ venv/
 .coverage
 
 
-#eviroment
+#environment
 
 .env
 .env.*
@@ -20,4 +20,6 @@ venv/
 .idea/
 
 ai_knowledge_assistant.egg-info/
-./ai_knowledge_assistant.egg-info
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
